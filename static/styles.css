@@ -248,38 +248,26 @@ table.file-links tr:hover {
 
 /* Social Icons (Footer) */
     
-/* Existing footer and social icon styles */
-footer.bg-dark {
-    background-color: #111111; /
-    color: #5a6f60;
-    padding: 20px;
+/* Footer Styles */
+footer {
+    background-color: #111111; /* Dark background */
+    color: #5a6f60; /* White text */
     text-align: center;
+    padding: 20px;
 }
 
 .social-icon {
-    width: 20px;
+    width: 20px; 
     height: auto;
     margin: 0 5px;
     vertical-align: middle; 
+
+
+footer a {
+    color: #5a6f60;
 }
 
-
-footer.bg-dark a {
-    display: inline-block;
-    text-decoration: none; 
-}
-
-
-footer.bg-dark {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
-}
-
-footer.bg-dark hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 80%; 
+footer hr {
+    border-top-color: #5a6f60; 
 }
 
