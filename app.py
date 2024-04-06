@@ -1,6 +1,6 @@
 from flask import Flask, flash, request, redirect, url_for, send_from_directory, render_template
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager, UserMixin, login_user, logout_user
+from flask_login import LoginManager, UserMixin, login_user, logout_user, current_user
 from werkzeug.utils import secure_filename
 import os
 
@@ -24,6 +24,12 @@ class Users(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(250), unique=True, nullable=False)
     password = db.Column(db.String(250), nullable=False)
+
+class Files(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    filename = db.Column(db.String(250), nullable=False)
+    user = db.relationship('Users', backref=db.backref('files', lazy=True))                                     
 
 with app.app_context():
     db.create_all()
@@ -67,7 +73,13 @@ def upload_file():
             return redirect(request.url)
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
-            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(file_path)
+
+            user_file = Files(user_id=current_user.id, filename=filename)
+            db.session.add(user_file)
+            db.session.commit()
+
             return redirect(url_for('display_file', filename=filename))
     return render_template('upload.html')
 
