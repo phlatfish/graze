@@ -1,1 +1,12 @@
-
+<table>
+    <tr>
+        <th>File name</th>
+        <th>User</th>
+    </tr>
+    {% for filename, username in file_users_dict.items() %}
+    <tr>
+        <td><a href="{{ url_for('display_file', filename=filename) }}">{{ filename }}</a></td>
+        <td>{{ username }}</td>
+    </tr>
+    {% endfor %}
+</table>
