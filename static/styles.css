@@ -83,6 +83,7 @@ h2 {
 
 
 /* Input Labels  */
+
 form {
     background-color: #ffffff; 
     padding: 20px;
@@ -215,6 +216,7 @@ footer {
 }
 
 /* Social Icons (Footer) */
+    
 .social-icon {
      width: 20px; /* Adjust this */
      height: auto; /* Adjust this */
