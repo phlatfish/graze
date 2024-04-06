@@ -27,22 +27,23 @@
 <!-- Add space here -->
 <div style="margin-top: 75px;"></div>
 
-<body>
-    <h1>Sign up</h1>
-	<nav>
-	    <ul>
-		    <li><a href="/login">Login</a></li>
-	    </ul>
-	</nav>
-	<form action="#" method="post">
-	    <label for="username">Username:</label>
-	    <input type="text" name="username" />
-	    <label for="password">Password:</label>
-	    <input type="password" name="password" />
-	    <button type="submit">Submit</button>
-    </form>
-</body>
-</html>
+<main class="container">
+    <section id="sign_up">
+        <h1>Sign Up for Graze</h1>
+        <form action="#" method="post" class="sign_up-form">
+            <div class="form-group">
+                <label for="username"><i class="fas fa-user"></i> Username:</label>
+                <input type="text" id="username" name="username" required />
+            </div>
+            <div class="form-group">
+                <label for="password"><i class="fas fa-lock"></i> Password:</label>
+                <input type="password" id="password" name="password" required />
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p class="form-footer">Already have a account? <a href="/login">Log In</a></p>
+    </section>
+</main>
 
 <!-- Add space here -->
 <div style="margin-top: 450px;"></div>
