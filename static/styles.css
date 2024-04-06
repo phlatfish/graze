@@ -1,6 +1,7 @@
-/* styles.css */
+/* Graze CSS File */
 
 /* Header */
+
 header {
     background-color: #111111; 
     padding: 20px 0;
@@ -25,6 +26,7 @@ header {
 }
 
 /* Body */
+
 body {
     font-family: 'Be Vietnam Pro', sans-serif; 
     margin-top: 80px; 
@@ -41,6 +43,8 @@ h2 {
     font-size: 24px; 
     margin-bottom: 20px;
 }
+
+/* Navigation Bar */
 
 .navigation {
     overflow: hidden;
@@ -77,6 +81,8 @@ h2 {
     top: 90%; 
 }
 
+
+/* Input Labels  */
 form {
     background-color: #ffffff; 
     padding: 20px;
@@ -101,6 +107,8 @@ input[type="password"] {
     border-radius: 5px;
 }
 
+/* Buttons */
+
 button {
     width: 100%;
     padding: 10px;
@@ -114,6 +122,28 @@ button {
 button:hover {
     background-color: #0056b3; 
 }
+
+.upload-button {
+    display: block;
+    margin: 20px auto; 
+    background-color: #5A6F60; 
+    color: #111111;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #485c4d;
+    transform: translateY(-5px);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #485c4d;
+}
+
+/* Footer */
 
 .form-footer {
     margin-top: 20px;
@@ -131,11 +161,6 @@ footer {
     padding: 20px;
 }
 
-.social-icon {
-    width: 30px;
-    margin-left: 5px;
-}
-
 .form-footer {
     margin-top: 20px;
     text-align: center;
@@ -145,7 +170,8 @@ footer {
     color: #007bff; 
 }
 
-/* Custom styles for file upload */
+/* File Upload */
+    
 .upload-container {
     margin-top: 50px;
     text-align: center;
@@ -175,22 +201,8 @@ footer {
     background-color: #485c4d;
 }
 
-.upload-button {
-    display: block;
-    margin: 20px auto; 
-    background-color: #5A6F60; 
-    color: #111111;
-    border: none;
-    padding: 10px 20px;
-    font-family: 'Be Vietnam Pro', sans-serif; 
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.upload-button:hover {
-    background-color: #485c4d;
-    transform: translateY(-5px);
-}
-
+/* Image Cards */
+    
 .card-img-container {
     height: 250px; /* Adjust this */
     overflow: hidden;
@@ -201,11 +213,10 @@ footer {
     height: 100%;
     width: 100%;
 }
+
+/* Social Icons (Footer) */
 .social-icon {
      width: 20px; /* Adjust this */
      height: auto; /* Adjust this */
      margin: 0 5px;
-}
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #485c4d;
 }
