@@ -1,7 +1,7 @@
 # Graze
 
 ## Inspiration
-We were inspired by the theme 'Art' for this hackathon to make a project that allows the user to host art pieces online. You can 'graze' for good artwork just like you browse the internet. We believe that this is an important project to create because it's very important for people to be able to easily upload their art on the internet without a system that creates dopamine such as 'likes' or 'comments'. 
+We were inspired by the theme 'Art' for this Hackathon to make a project that allows the user to host art pieces online. You can 'graze' for good artwork just like how you browse the internet. We believe that this is an important project to create because it's very important for people to be able to easily upload their art on the internet, without a system that creates dopamine such as 'likes' or 'comments'.  Graze is meant to be a harmless solution to the problem that social media causes in this day and age. It allows users to share their projects and artwork with minimal toxicity and negative cognitive reactions, which allows people of all ages to enjoy Graze.
 
 ## What it does
 It allows the user to easily upload their artwork or manuscripts on the internet, free of charge. We made the user interface fairly simple to minimize confusion and time. This allows the user to easily submit their art and images online and see other people's projects in the span of a few seconds.
