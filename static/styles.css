@@ -259,8 +259,9 @@ footer {
 .social-icon {
     width: 20px; 
     height: auto;
-    margin: 0 5px;
+    margin: auto;
     vertical-align: middle; 
+}
 
 
 footer a {
