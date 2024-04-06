@@ -2,20 +2,21 @@
 
 /* Header */
 header {
-    background-color: #f8f9fa; 
+    background-color: #111111; 
     padding: 20px 0;
 }
 
 .header-title {
     font-family: 'Victor Mono', monospace; 
     font-size: 32px;
-    color: #333; 
+    color: #ffffff; 
 }
 
 /* Body */
 body {
     font-family: 'Be Vietnam Pro', sans-serif; 
     margin-top: 80px; 
+    background-color: #111111; 
 }
 
 .container {
@@ -31,12 +32,12 @@ h2 {
 
 .navigation {
     overflow: hidden;
-    background-color: #000;
+    background-color: #111111; 
 }
 
 .navigation a {
     float: left;
-    color: white;
+    color: #85AC94;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -50,7 +51,7 @@ h2 {
     position: absolute;
     width: 100%; 
     height: 2px; 
-    background-color: white; 
+    background-color: #5A6F60; 
     bottom: 0; 
     left: 0; 
     transition: width 0.3s ease, top 0.3s ease; 
@@ -85,19 +86,23 @@ button {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #5A6F60;
     color: #fff;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #485c4d;
 }
 
 /* Custom styles for file upload */
 .upload-container {
     margin-top: 50px;
     text-align: center;
+}
+
+.upload-container h2 {
+    color: #ffffff; 
 }
 
 .upload-input {
@@ -112,23 +117,24 @@ button:hover {
 }
 
 .upload-label {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #5A6F60;
+    color: #111111;
 }
 
 .upload-label:hover {
-    background-color: #45a049;
+    background-color: #485c4d;
 }
 
 .upload-button {
     display: block;
     margin: 20px auto; 
-    background-color: #007bff; 
-    color: white;
+    background-color: #5A6F60; 
+    color: #111111;
     border: none;
-    padding: 10px 20px; 
+    padding: 10px 20px;
+  font-family: 'Be Vietnam Pro', sans-serif; 
 }
 
 .upload-button:hover {
-    background-color: #0056b3; 
+    background-color: #485c4d; 
 }
