@@ -48,6 +48,7 @@ h2 {
 .navigation {
     overflow: hidden;
     background-color: #111111; 
+    font-family: 'Victor Mono', monospace; 
 }
 
 .navigation a {
