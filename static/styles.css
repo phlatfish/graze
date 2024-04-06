@@ -29,6 +29,7 @@ header {
 
 body {
     font-family: 'Be Vietnam Pro', sans-serif; 
+    margin-top: 80px; 
     background-color: #111111; 
 }
 
@@ -48,7 +49,6 @@ h2 {
 .navigation {
     overflow: hidden;
     background-color: #111111; 
-    font-family: 'Victor Mono', monospace; 
 }
 
 .navigation a {
@@ -149,7 +149,6 @@ button:hover {
 .form-footer {
     margin-top: 20px;
     text-align: center;
-    color: #5A6F60;
 }
 
 .form-footer a {
@@ -220,7 +219,7 @@ table.file-links {
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
-    background-color: #5A6F60;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -232,43 +231,24 @@ table.file-links td {
 
 table.file-links th {
     background-color: #20c073;
-    color: #5A6F60;
+    color: #fff;
     text-align: left;
 }
 
 table.file-links tr:nth-child(even) {
-    background-color: #111111;
+    background-color: #f2f2f2;
 }
 
 table.file-links tr:hover {
-    background-color: #111111;
+    background-color: #e0e0e0;
 }
 
 
 
 /* Social Icons (Footer) */
     
-/* Footer Styles */
-footer {
-    background-color: #111111; /* Dark background */
-    color: #5a6f60; /* White text */
-    text-align: center;
-    padding: 20px;
-}
-
 .social-icon {
-    width: 20px; 
-    height: auto;
-    margin: auto;
-    vertical-align: middle; 
+     width: 20px; /* Adjust this */
+     height: auto; /* Adjust this */
+     margin: 0 5px;
 }
-
-
-footer a {
-    color: #5a6f60;
-}
-
-footer hr {
-    border-top-color: #5a6f60; 
-}
-
