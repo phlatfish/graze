@@ -117,3 +117,8 @@ button:hover {
     background-color: #45a049;
 }
 
+.social-icon {
+    width: 20px; /* Adjust this */
+    height: auto; /* Adjust this */
+    margin: 0 5px;
+}
