@@ -63,24 +63,53 @@
 <div style="margin-top: 75px;"></div>    
 
 <body>
-    {% if current_user.is_authenticated %}
-	    <h1>You are logged in</h1>
-	    <nav>
-            <ul>
-                <li><a href="/logout">Logout</a></li>
-                <li><a href="/upload">Upload</a></li>
-            </ul>
-        </nav>
+	{% if current_user.is_authenticated %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="static/upload.png" class="card-img-top" alt="Upload Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Upload</h5>
+                        <button class="btn btn-primary btn-block" onclick="location.href='/upload'">Upload</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="static/logout.png" class="card-img-top" alt="Logout Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Logout</h5>
+                        <button class="btn btn-success btn-block" onclick="location.href='/logout'">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 	{% else %}
-	    <h1>You are not logged in</h1>
-        <nav>
-            <ul>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/sign_up">Sign up</a></li>
-            </ul>
-        </nav>
+     <div class="container">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="static/login.png" class="card-img-top" alt="Login Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Login</h5>
+                        <button class="btn btn-primary btn-block" onclick="location.href='/login'">Login</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="static/signup.png" class="card-img-top" alt="Sign Up Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Sign Up</h5>
+                        <button class="btn btn-secondary btn-block" onclick="location.href='/sign_up'">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	{% endif %}
 </body>
+
 	
 <!-- What is it? -->
     <section id="what-is-it" class="container mt-5">
