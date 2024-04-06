@@ -20,3 +20,5 @@ We learned how to work together as a team successfully. We also learned how to u
 
 ## What's next for Graze
 We plan to further expand the website's capabilities and functions. We also would like to host 'Graze' on a server that connects thousands of users by their shared love for the arts. We would like to one day develop Graze to the point where we can make money from sponsors and sell Graze to a large company, such as Facebook or Amazon.
+
+*Fun fact: Graze's logo is 3 uppercase versions of the Greek symbol 'Gamma' (Γ) to represent the three members of our developer team.*
