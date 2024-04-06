@@ -60,7 +60,7 @@ If you're new to web development or just want to use the application, here's a s
 Open the file uploader by following the "Getting Started" steps.
 
 1. You'll see an input field labeled "Upload." Enter your files here. For example, you can upload dhruvrakhadeforpresident.png to get a stunning image of Dhruv!
-2. Press the "Graph" button, and the graph will appear on the canvas.
+2. Press the "Upload" button, and the file will appear on the internet.
 
 Experiment with different files and see how the database changes in real-time.
 
