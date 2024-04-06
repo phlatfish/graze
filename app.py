@@ -99,6 +99,19 @@ def page_not_found(e):
 def home():
     return render_template("home.html")
 
+def dictionize():
+    file_users = Files.query.join(Users).all()
+    file_users_dict = {}
+    
+    for file in file_users:
+        file_users_dict[file.filename] = file.user.username
+
+    return file_users_dict
+
+@app.route('/gallery')
+def gallery():
+    file_users_dict = dictionize()
+    return render_template('gallery.html', file_users_dict=file_users_dict)
+
 if __name__ == "__main__":
     app.run(debug=True)
-    
