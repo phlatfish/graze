@@ -214,6 +214,36 @@ footer {
     height: 100%;
     width: 100%;
 }
+    /* Table styling */
+table.file-links {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table.file-links th,
+table.file-links td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table.file-links th {
+    background-color: #20c073;
+    color: #fff;
+    text-align: left;
+}
+
+table.file-links tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.file-links tr:hover {
+    background-color: #e0e0e0;
+}
+
+
 
 /* Social Icons (Footer) */
     
