@@ -44,7 +44,15 @@ To start using Graze, follow these steps:
     ```bash
     cd graze
 
-3. Open the index.html file in your web browser to access the image uploader.
+3. Run the command
+
+  ```bash
+  flask --app app run
+  ```
+
+4. Open the URL given by Flask to access the website, or just open https://grazeart.xyz in your browser.
+
+5. Follow the instructions on the website.
 
 ## Usage
 For Newbies
