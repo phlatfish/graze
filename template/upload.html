@@ -1,13 +1,67 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Upload New File</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntrepidBlogger</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://intrepidbird.me/blog-website/images/blog-favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Tharun edit this it's bootstrap for now but you can link your css file in -->
 </head>
 <body>
-    <h1>Upload New File</h1>
+
+<!-- Navbar (sit on top) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/#">Graze</a>
+    <!-- Toggle button for small screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/#what-is-it">What is Graze?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sign_up">Sign Ip</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/login">Log In</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Upload Files </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<body>
+    <h2>Upload New File</h2>
     <form method="post" enctype="multipart/form-data">
         <input type="file" name="file">
         <input type="submit" value="Upload">
     </form>
+</body>
+</html>
+
+<!-- Add space here -->
+<div style="margin-top: 300px;"></div>
+  
+<!-- Footer -->
+<footer class="bg-light text-black text-center p-4">
+    &copy; 2024 Alex Sheng, Dhruv Rakhade, Tharun Naguleswaren. All rights reserved.
+    <hr>
+    View this Project:
+    <a href="https://github.com/pointySphere/graze" target="_blank"><img src="/images/github-icon.png" alt="GitHub" class="social-icon"></a>
+    <a href="https://devpost.com/software/graze" target="_blank"><img src="/images/devpost-icon.png" alt="Devpost" class="social-icon"></a>
+</footer>
+
+<!-- Bootstrap & jQuery JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
