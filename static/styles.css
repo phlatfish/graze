@@ -93,3 +93,27 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+/* Custom styles for file upload */
+.upload-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.upload-input {
+    display: none;
+}
+
+.upload-label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-label:hover {
+    background-color: #45a049;
+}
+
