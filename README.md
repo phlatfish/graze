@@ -16,7 +16,6 @@ This project is made for RidgeHacks 2024 by **Tharun Naguleswaren, Dhruv Rakhade
   - [Getting Started](#getting-started)
   - [Usage](#usage)
   - [Customization](#customization)
-  - [Contributing](#contributing)
 
 ## Introduction
 
@@ -71,20 +70,5 @@ Experienced developers may want to customize the project further. You can modify
 - The Flask code for this project can be found in the app.py file. We also use jQuery for sleek JavaScript operations.
 
 - The code listens for form submissions using jQuery. When the form is submitted, it retrieves the file from the user's computer, and uploads it into our safe and secure database.
-
-## Contributing
-We welcome contributions to this project. If you'd like to improve Graze, fix bugs, or add new features, please follow these steps:
-
-1. Fork the repository to your own GitHub account.
-
-2. Create a new branch for your feature or bug fix.
-
-3. Make your changes and commit them to your branch.
-
-4. Submit a pull request to the main repository.
-
-Please ensure that your code follows best practices and includes documentation where necessary.
-
-We hope you find Graze useful and educational. If you have any questions or need assistance, feel free to reach out to the project maintainers.
 
 Happy coding! 💻
