@@ -4,6 +4,18 @@
 header {
     background-color: #111111; 
     padding: 20px 0;
+    animation: fadeInDown 1s ease;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .header-title {
@@ -170,11 +182,13 @@ footer {
     color: #111111;
     border: none;
     padding: 10px 20px;
-  font-family: 'Be Vietnam Pro', sans-serif; 
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .upload-button:hover {
-    background-color: #485c4d; 
+    background-color: #485c4d;
+    transform: translateY(-5px);
 }
 
 .card-img-container {
