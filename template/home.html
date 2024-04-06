@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Home</title>
+</head>
+<body>
+    {% if current_user.is_authenticated %}
+	    <h1>You are logged in</h1>
+	    <nav>
+            <ul>
+                <li><a href="/logout">Logout</a></li>
+                <li><a href="/upload">Upload</a></li>
+            </ul>
+        </nav>
+	{% else %}
+	    <h1>You are not logged in</h1>
+        <nav>
+            <ul>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/sign_up">Sign up</a></li>
+            </ul>
+        </nav>
+	{% endif %}
+</body>
+</html>
