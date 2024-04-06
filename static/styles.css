@@ -138,3 +138,19 @@ button:hover {
 .upload-button:hover {
     background-color: #485c4d; 
 }
+
+.card-img-container {
+    height: 250px; /* Adjust this */
+    overflow: hidden;
+}
+
+.card-img-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.social-icon {
+     width: 20px; /* Adjust this */
+     height: auto; /* Adjust this */
+     margin: 0 5px;
+}
