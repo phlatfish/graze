@@ -6,8 +6,12 @@
     <title>Graze</title>
     <!-- Favicon -->
     <link rel="icon" href="static/favicon.png">
-    <!-- Bootstrap CSS -->
+    <!-- External CSS -->
     <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <!-- Google Fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 
@@ -22,26 +26,27 @@
 <!-- Add space here -->
 <div style="margin-top: 75px;"></div>
 
-<body>
-    <h1>Login to your account</h1>
-    <nav>
-        <ul>
-            <li><a href="/sign_up">Sign up</a></li>
-        </ul>
-    </nav>
-    <form action="#" method="post">
-        <label for="username">Username:</label>
-        <input type="text" name="username" />
-        <label for="password">Password:</label>
-        <input type="password" name="password" />
-        <button type="submit">Submit</button>
-    </form>
-</body>
-</html>
+<main class="container">
+    <section id="login">
+        <h1>Login to your account</h1>
+        <form action="#" method="post" class="login-form">
+            <div class="form-group">
+                <label for="username"><i class="fas fa-user"></i> Username:</label>
+                <input type="text" id="username" name="username" required />
+            </div>
+            <div class="form-group">
+                <label for="password"><i class="fas fa-lock"></i> Password:</label>
+                <input type="password" id="password" name="password" required />
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p class="form-footer">Don't have an account? <a href="/sign_up">Sign up</a></p>
+    </section>
+</main>
 
 <!-- Add space here -->
-<div style="margin-top: 450px;"></div>
-  
+<div style="margin-top: 150px;"></div>
+
 <!-- Footer -->
 <footer class="bg-light text-black text-center p-4">
     &copy; 2024 Alex Sheng, Dhruv Rakhade, Tharun Naguleswaren. All rights reserved.
