@@ -1,4 +1,5 @@
 /* styles.css */
+
 /* Header */
 header {
     background-color: #f8f9fa; 
@@ -6,14 +7,16 @@ header {
 }
 
 .header-title {
+    font-family: 'Victor Mono', monospace; 
     font-size: 32px;
     color: #333; 
 }
 
 /* Body */
 body {
-    font-family: Arial, sans-serif; 
+    font-family: 'Be Vietnam Pro', sans-serif; 
     margin-top: 80px; 
+}
 
 .container {
     max-width: 960px;
