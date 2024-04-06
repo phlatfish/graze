@@ -97,14 +97,14 @@ input[type="text"],
 input[type="password"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ced4da; 
+    border: 1px solid #aeb7a8; 
     border-radius: 5px;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff; 
+    background-color: #20c073; 
     color: #ffffff; /* White text */
     border: none;
     border-radius: 5px;
