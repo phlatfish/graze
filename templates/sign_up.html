@@ -17,12 +17,22 @@
 </head>
 <body>
 
+<body>
+
+	{% if current_user.is_authenticated %}
 <div class="navigation">
     <a href="/">Home</a>
     <a href="/#what-is-it">What is Graze?</a>
     <a href="/upload">Upload Files</a>
+    <a href="/logout">Log Out</a>
+	{% else %}
+<div class="navigation">
+    <a href="/">Home</a>
+    <a href="/#what-is-it">What is Graze?</a>
     <a href="/sign_up">Sign Up</a>
     <a href="/login">Log In</a>
+	{% endif %}
+</body>
 
 <!-- Add space here -->
 <div style="margin-top: 75px;"></div>
