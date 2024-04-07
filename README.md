@@ -19,7 +19,7 @@ This project is made for RidgeHacks 2024 by **Tharun Naguleswaran, Dhruv Rakhade
 
 ## Introduction
 
-IntrepidGraph is a simple yet powerful tool that enables users to upload art files and instantly see their images online. Whether you are a art enthusiast, a student, or a developer looking to learn and experiment with Flask, this project offers something for everyone.
+Graze is a simple yet powerful tool that enables users to upload art files and instantly see their images online. Whether you are a art enthusiast, a student, or a developer looking to learn and experiment with Flask, this project offers something for everyone.
 
 ### Key Features
 
