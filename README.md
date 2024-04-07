@@ -3,7 +3,9 @@
 ![image](https://github.com/pointySphere/graze/assets/140008493/5e501de4-8693-449f-a967-f6959f8cf54b)
 
 > [!IMPORTANT]  
-> **Graze won 2nd place overall at RidgeHacks 2024**
+> **Graze won 2nd place overall at [RidgeHacks 2024](https://ridgehacks.us/)**
+
+Devpost: https://devpost.com/software/graze
 
 ## A visually appealing database for you to share your art!
 
