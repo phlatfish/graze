@@ -2,6 +2,9 @@
 
 ![image](https://github.com/pointySphere/graze/assets/140008493/5e501de4-8693-449f-a967-f6959f8cf54b)
 
+> [!IMPORTANT]  
+> **Graze won 2nd place overall at RidgeHacks 2024**
+
 ## A visually appealing database for you to share your art!
 
 Graze is a web-based art database that allows you to upload your own art or just any image file you find important! This project contains HTML, CSS, and Flask files, along with an "images" folder that holds various images. In this README, we will guide both newcomers and experienced developers through the key aspects of this project.
