@@ -1,6 +1,6 @@
 # Graze
 
-![image](https://github.com/pointySphere/graze/assets/140008493/5e501de4-8693-449f-a967-f6959f8cf54b)
+[![image](https://github.com/pointySphere/graze/assets/140008493/5e501de4-8693-449f-a967-f6959f8cf54b)](https://ridgehacks-2024.devpost.com/)
 
 > [!IMPORTANT]  
 > **🥈 Graze won 2nd place overall at [RidgeHacks 2024](https://ridgehacks.us/)**
