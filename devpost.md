@@ -24,4 +24,3 @@ We plan to further expand the website's capabilities and functions. We also woul
 *Fun fact: Graze's logo is 3 uppercase versions of the Greek symbol 'Gamma' (Γ) to represent the 3 members of our developer team.*
 
 Special thanks to Calum for recording our video and giving helpful insights throughout.
-Special thanks to Calum for recording our video and giving helpful insights throughout.
