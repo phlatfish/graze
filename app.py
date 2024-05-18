@@ -59,11 +59,6 @@ def login():
 
     return render_template("login.html")
 
-@app.route("/logout")
-def logout():
-    logout_user()
-    return redirect(url_for("home"))
-
 @app.route("/upload", methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
